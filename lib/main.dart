@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_one/apitest.dart';
 import 'package:new_one/loginscreen.dart';
 // import 'package:new_one/basicscreen.dart';
 // import 'package:new_one/displcol.dart';
@@ -19,7 +20,8 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(child: Scaffold(
         body:Center(
-          child: MyLoginScreen(),        ),
+          child: ApiExample(),        
+          ),
       ),
       ),
     );
